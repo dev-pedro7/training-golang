@@ -3,10 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	arr := [3]int{100, 200, 300}
-	// fmt.Println(arr[2])
+	numbers := []int{10, 20, 30}
 
-	for index, value := range arr {
-		fmt.Printf("Index: %d, Value: %d\n", index, value)
+	for i, n := range numbers {
+		fmt.Printf("Indice: %v\nValor: %v\n", i, n)
 	}
 }
